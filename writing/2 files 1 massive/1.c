@@ -25,12 +25,12 @@ int	main(void)
  
     input = fopen(INPUT_FILE, READ_ONLY);
     if (input == NULL) {
-        printf("Error opening file input");
+        printf("Error opening file input\n");
         exit(ERROR_OPEN_FILE);
     }
     output = fopen(OUTPUT_FILE, WRITE_ONLY);
     if (output == NULL) {
-        printf("Error opening file output");
+        printf("Error opening file output\n");
         if (input != NULL) fclose(input);
         exit(ERROR_OPEN_FILE);
     }
