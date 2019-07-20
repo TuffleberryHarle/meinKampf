@@ -1,3 +1,3 @@
 so we have 2 files:
 1. input, where we type in dimensions of the needed array (for example: "XXX XXX");
-2. output, where the program puts the array.
+2. output, where the program puts the array in.
